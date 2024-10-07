@@ -14,6 +14,15 @@ menu_selection = st.sidebar.radio(
     ["Purchase 🏍️", "Test Drive 🛵", "Services 🛠️", "Merchandise 🎁", "Dealers 🗺️"]
 )
 
+#Kinnovia Logo
+
+st.logo(
+    image="Horizontal_black_orange.png",
+    link="https://www.kinnovia.com",
+    icon_image=None,
+)
+#######
+
 # Set background color for the app
 st.markdown(
     """
